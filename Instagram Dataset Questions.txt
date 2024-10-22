@@ -1,0 +1,49 @@
+Here are some questions that can guide the development and analysis of your project based on the provided database schema:
+
+### 1. **Users Table**
+   - How many users have signed up?
+   - Which user has posted the most photos?
+   - When was a specific user’s account created?
+
+### 2. **Photos Table**
+   - How many photos have been uploaded in total?
+   - Which user has uploaded the most photos?
+   - What is the distribution of photos uploaded over time (daily, monthly)?
+   - Can we retrieve all photos uploaded by a specific user?
+   - Which photo has the most interactions (likes, comments)?
+
+### 3. **Comments Table**
+   - Which photo has the most comments?
+   - Which user has posted the most comments?
+   - How many comments have been made on a specific photo?
+   - How many comments were posted by a particular user on various photos?
+
+### 4. **Likes Table**
+   - Which user has liked the most photos?
+   - How many likes does a specific photo have?
+   - Which photos have received the most likes?
+   - How can we find photos liked by a particular user?
+
+### 5. **Follows Table**
+   - Who follows whom in the network?
+   - How many followers does each user have?
+   - How many people is a specific user following?
+   - Can we retrieve a list of mutual followers between two users?
+
+### 6. **Tags Table**
+   - How many unique tags have been created?
+   - What are the most commonly used tags?
+   - Which tags are associated with the most photos?
+
+### 7. **Photo_Tags Table**
+   - Which photos have a specific tag?
+   - Can we list all tags associated with a specific photo?
+   - What is the distribution of tags across the photos in the database?
+
+### Advanced Questions:
+   - What is the relationship between user activity (uploads, likes, comments) and their number of followers?
+   - What is the overall engagement (likes and comments) on photos over time?
+   - Can we rank users by their popularity based on likes, comments, and followers?
+   - How can we recommend photos to users based on the tags they’ve interacted with or photos they've liked?
+  
+These questions can help you develop queries, reports, and insights for your project. Let me know if you'd like help writing queries or creating more specific questions!
